@@ -4,11 +4,9 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-weight: 600;
 }
-
 .welcome-header__title {
-  margin-bottom: 30px;
+  margin-bottom: 40px;
   font-size: 25px;
 }
 
@@ -29,15 +27,13 @@
   font-size: 18px;
   margin-bottom: 25px;
 }
-
 #login-form input:not([type="submit"]) {
-  transition: border-color 0.3s ease-in-out;
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  transition: border-color 0.3s ease-in-out;
 }
 
 #login-form input::placeholder {
   color: rgba(0, 0, 0, 0.4);
-  cursor: pointer;
 }
 
 #login-form input:focus {
@@ -47,13 +43,16 @@
 #login-form input[type="submit"] {
   background-color: var(--yellow);
   cursor: pointer;
-  padding: 20px 0px;
+  margin-bottom: 5px;
+  font-size: 14px;
+  padding: 20px;
   border-radius: 5px;
 }
 
 #login-form a {
+  margin-top: 15px;
   text-align: center;
   text-decoration: none;
   color: inherit;
-  font-size: 12px;
+  font-size: 13px;
 }

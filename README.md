@@ -1,3 +1,3 @@
-# Kokoa Clone 2022 Update
+# Kokoa Clone 2021 Update
 
-Kokoa Clone Coding 2022 Upadate.
+HTML & CSS are so much fun!
